@@ -5,7 +5,7 @@ int main()
     printf("Enter a natural number:");
     scanf("%d",&n);
     for(i=1;i<=n;i++)
-    {sum=sum+(i*i);}
-    printf("The sum of square of first %d natural numbers are:%d",n,sum);
+    {sum=sum+i;}
+    printf("The sum of first %d natural numbers are:%d",n,sum);
     return 0;
 }
